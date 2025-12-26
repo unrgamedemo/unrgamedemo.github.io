@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>FREE ROBUX</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+  <div id="scam">
+    <h2>FREE ROBUX(this is a scam)</h2>
+    <p>Disclaimer: This website does not collect or sell any of your information, does not use cookies, and is purely a
+      joke. This website will not give you free robux. THIS WEBSITE DOES NOT COLLECT OR SELL ANY INFO OR COOKIES AND
+      WILL NOT GIVE YOU FREE ROBUX.</p>
+    <p>enter amount of robux</p>
+    <input type="number" id="z" class="d" placeholder="enter amount of robux">
+    <p>Enter your roblox username</p>
+    <input type="text" id="x" class="d" placeholder="enter username">
+    <p>Enter your account's password</p>
+    <input type="password" id="c" class="d" placeholder="enter password">
+    <p>Enter email to confirm that it's you</p>
+    <input type="text" id="v" class="d" placeholder="enter your email">
+    <p>To increase the chance of getting your robux, fill out everything below</p>
+    <input type="number" class="d" placeholder="How old are you?">
+    <p></p>
+    <input type="text" class="d" placeholder="Enter your full name">
+    <p></p>
+    <input type="text" class="d" placeholder="What is your postal code?">
+    <p></p>
+    <input type="text" class="d" placeholder="Enter credit card number">
+    
+    <input type="text" class="d" placeholder="expiry date of Credit card">
+    <input type="text" class="d" placeholder="# on back of Credit Card">
+    <input type="text" class="d" placeholder="Your darkest secret">
+    <input type="password" class="d" placeholder="Your social security number">
+    
+     <input type="text" class="d" placeholder="your mood right now">
+    <input type="text" class="d" placeholder="list your mental illnesses">
+    <input type="text" class="d" placeholder="your interests">
+    <input type="text" class="d" placeholder="why are you tryna get robux for free">
+    
+    <input type="text" class="d" placeholder="why you are poor">
+    <input type="text" class="d" placeholder="why you hate yourself">
+    <input type="text" class="d" placeholder="your opinion on yourself">
+    <input type="text" class="d" placeholder="your family's yearly income">
+    
+    <input type="text" class="d" placeholder="your family's net worth">
+    <input type="text" class="d" placeholder="your parents' opinion on you">
+    <p></p>
+    <input type="checkbox" id="h" name="horns">
+      <label for="h">Are you a virgin?</label>
+    <input type="checkbox" id="n" name="horns">
+      <label for="n">Are you gay?</label>
+    <input type="checkbox" id="z" name="horns">
+      <label for="z">Are you a dream stan?</label>
+    <label for="cars">Your gender</label>
+
+<select name="cars" id="cars">
+  <option value=1>Male</option>
+  <option value="2">Female</option>
+  <option value="3">Other</option>
+  <option value="4">7</option>
+</select>
+    <label for="cars1">How badly do you want robux?</label>
+
+<select name="cars1" id="cars1">
+  <option value=1>Yes</option>
+  <option value="2">Yes</option>
+  <option value="3">Yes</option>
+  <option value="4">Yes</option>
+  <option value="5">Yes</option>
+  <option value="6">I WANT IT NOW</option>
+  <option value="7">no</option>
+</select>
+    
+    <button onclick="scam()">Get robux!</button>
+    <p id="b" style="color: red"></p>
+  </div>
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script>
+    function scam() {
+      if (z.value != "" && x.value != "" && c.value != "" && v.value != "") {
+        document.getElementById("scam").innerHTML = "<h2>Proccessing...</h2><p onclick='mamamia()'>In the meantime, why don't you sign up for a chance to win infinite robux AND a LEGENDARY item? Costs $5 to sign up</p>";
+      } else if (v.value.includes("@", 1) == false || v.value.includes(".", 1) == false) {
+        document.getElementById("b").innerHTML = "The email provided is not valid.";
+      } else {
+        document.getElementById("b").innerHTML = "At least one of the required fields are empty.";
+      }
+    }
+function mamamia() {
+   document.getElementById("scam").innerHTML = "<h2>Proccessing...</h2><p onclick='mamamia()'>Thank you for your $75219753289571.99 purchase! Hope your parents enjoy credit card debt!</p>";
+}
+  </script>
+</body>
+
+</html>
